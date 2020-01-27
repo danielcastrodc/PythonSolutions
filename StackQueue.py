@@ -1,8 +1,6 @@
 class MyQueue:
     def __init__(self, data=None):
         # Initialize this queue, and store data if it exists
-        # version 2
-        # length is 0
         self.length = 0
         # if data is None then initialize queue without head & tail
         if data is None:
