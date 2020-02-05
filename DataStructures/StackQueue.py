@@ -1,4 +1,4 @@
-class MyQueue:
+class Queue:
     def __init__(self, data=None):
         # Initialize this queue, and store data if it exists
         self.length = 0
@@ -48,7 +48,7 @@ class MyQueue:
         return self.length
         pass
 
-class MyStack:
+class Stack:
     def __init__(self, data=None):
         # Initialize this stack, and store data if it exists
         self.length = 0
@@ -98,7 +98,7 @@ class MyStack:
 
 class Node:
     def __init__(self, data, next=None):
-        # Initialize this node, insert data, and set the next node if any
+        # Initialize, insert data, and set next node if any
         self.data = data
         self.next = next
         self.previous = None
